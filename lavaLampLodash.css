@@ -1,0 +1,40 @@
+		.main-nav {
+		  position: relative;
+		  zoom: 1;
+		}
+		.main-nav:before,
+		.main-nav:after {
+		  content: "";
+		  display: table;
+		}
+		.main-nav:after {
+		  clear: both;
+		}
+		.main-nav,
+		.main-nav * {
+		  display: block;
+		  margin: 0;
+		  padding: 0;
+		  -webkit-box-sizing: border-box;
+		  -moz-box-sizing: border-box;
+		  box-sizing: border-box;
+		  font-weight: normal;
+		  font-style: normal;
+		}
+		.main-nav__item-parent {
+		  float: left;
+		  padding: 10px 20px;
+		}
+		.main-nav__lodash {
+		  position: absolute;
+		  bottom: 0;
+		  height: 5px;
+		}
+		.main-nav__lodash--on {
+		  background: #4ac5ff;
+		  z-index: 99;
+		}
+		.main-nav__lodash--hover {
+		  background: #f14b50;
+		  z-index: 9;
+		}
